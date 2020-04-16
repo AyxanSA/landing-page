@@ -8,6 +8,7 @@
     display: flex;
     .all-content {
         display: flex;
+        width: 100%;
         justify-content: space-between;
         position: relative;
     }
@@ -220,6 +221,9 @@
 }
 @media (max-width: 1024px) {
     #main-content {
+        .all-content{
+            height: 110vw;
+        }
         .content-img {
             display: none;
         }
@@ -231,7 +235,6 @@
         }
         .content-info {
             padding: 0;
-            // max-width: 50%;
             h2 {
                 font-size: 25px;
             }
