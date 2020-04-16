@@ -3,12 +3,14 @@
     background-image: url(../static/assets/background9@2x.png);
     width: 100%;
     // height: 870px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-color: #0067ed;
     display: flex;
     .all-content {
         display: flex;
         width: 100%;
+        height: 100%;
         justify-content: space-between;
         position: relative;
     }
@@ -107,6 +109,7 @@
         z-index: 3;
         img {
             width: 100%;
+            height: 100%;
         }
     }
 }
@@ -222,7 +225,7 @@
 @media (max-width: 1024px) {
     #main-content {
         .all-content{
-            height: 110vw;
+            height: 100vh;
         }
         .content-img {
             display: none;
@@ -246,6 +249,7 @@
         }
     }
     #download {
+        height: 100vh;
         margin: 100px 0;
         .store-content {
             flex-direction: column;
