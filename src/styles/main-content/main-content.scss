@@ -226,7 +226,7 @@
         }
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 992.1px) {
     #main-content {
         .all-content {
             height: 100vh;
@@ -284,7 +284,7 @@
             }
         }
         .blue-content{
-            height: 400px;
+            height: 60vh;
             .download-container{
                 transform: translateY(-10%);
                 .download-image{
@@ -292,6 +292,18 @@
                     height: 75vh;
                 }
             }
+        }
+    }
+}
+@media (max-width:320.1px){
+    #main-content{
+        .info-inner{
+            padding: 0;
+          .contact{
+              button{
+                  margin: 0;
+              }
+          }
         }
     }
 }
