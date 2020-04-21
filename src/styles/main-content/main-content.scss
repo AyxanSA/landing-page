@@ -104,13 +104,17 @@
         }
     }
     .content-img {
-        width: calc(100% - 520px);
+        width: 55vw;
         height: 100%;
         z-index: 3;
         img {
             width: 100%;
             height: 100%;
         }
+        // svg {
+        //     width: 100%;
+        //     height: 100%;
+        // }
     }
 }
 #download {
@@ -224,7 +228,7 @@
 }
 @media (max-width: 1024px) {
     #main-content {
-        .all-content{
+        .all-content {
             height: 100vh;
         }
         .content-img {
@@ -249,7 +253,7 @@
         }
     }
     #download {
-        height: 100vh;
+        // height: 100vh;
         margin: 100px 0;
         .store-content {
             flex-direction: column;
@@ -279,8 +283,15 @@
                 }
             }
         }
-        .download-image {
-            width: 100vw;
+        .blue-content{
+            height: 400px;
+            .download-container{
+                transform: translateY(-10%);
+                .download-image{
+                    width: 85vw;
+                    height: 75vh;
+                }
+            }
         }
     }
 }
