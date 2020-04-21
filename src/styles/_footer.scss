@@ -14,10 +14,14 @@
             letter-spacing: 5.93px;
             color: #0569ed;
         }
+        .logo{
+            z-index: 50;
+        }
         .footer-contact {
             display: flex;
 
             a {
+                z-index: 50;
                 width: 36px;
                 height: 36px;
                 border-radius: 100%;
